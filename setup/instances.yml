@@ -9,6 +9,6 @@ instances:
   - name: kibana
     dns:
       - kibana
-      - localhost
+      - ${SERVER_DNS}
     ip:
       - 127.0.0.1
