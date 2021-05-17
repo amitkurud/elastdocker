@@ -84,6 +84,8 @@ services:
     ports:
       - "5044:5044"
       - "9600:9600"
+      - "5000:5000"
+      - "5001:5001"
 
   kibana:
     image: kibana:elastdocker-${ELK_VERSION}

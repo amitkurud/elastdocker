@@ -6,8 +6,8 @@ es_host: ${ELASTICSEARCH_HOST}
 es_port: ${ELASTICSEARCH_PORT}
 
 # Option basic-auth username and password for elasticsearch
-es_username: ${ELASTIC_USERNAME}
-es_password: ${ELASTIC_PASSWORD}
+es_username: "${ELASTIC_USERNAME}"
+es_password: "${ELASTIC_PASSWORD}"
 
 # This is the folder that contains the rule yaml files
 # Any .yaml file will be loaded as a rule
